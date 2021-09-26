@@ -13,6 +13,8 @@ Some images of the project:
 
 ![alt text](https://github.com/Jonathon-A/FirstPersonShooterController/blob/main/Images/GunRecoil.png)
 
+![alt text](https://github.com/Jonathon-A/FirstPersonShooterController/blob/main/Images/GunStow.png)
+
 ![alt text](https://github.com/Jonathon-A/FirstPersonShooterController/blob/main/Images/ARHip.png)
 
 ![alt text](https://github.com/Jonathon-A/FirstPersonShooterController/blob/main/Images/ARAim.png)
