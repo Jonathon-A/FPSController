@@ -19,6 +19,11 @@ Some images of the project:
 
 ![alt text](https://github.com/Jonathon-A/FirstPersonShooterController/blob/main/Images/ARAim.png)
 
-
 https://user-images.githubusercontent.com/61558176/145697634-0b59e741-3e30-4233-bc38-ba26596528cd.mp4
+
+https://user-images.githubusercontent.com/61558176/146090471-1e820f33-056e-4fff-a1d1-10d1693b3919.mp4
+
+https://user-images.githubusercontent.com/61558176/146090478-cce7eb3e-63d7-41f9-af83-d555a5311ab6.mp4
+
+https://user-images.githubusercontent.com/61558176/146090501-09ad62a4-7c25-424f-bbd5-b6d12c27745c.mp4
 
