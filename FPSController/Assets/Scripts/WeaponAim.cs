@@ -22,7 +22,7 @@ public class WeaponAim : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        Ray Ray = new Ray(transform.position, transform.parent.forward);
+        Ray Ray = new Ray(transform.position + transform.up * -0.1f, transform.parent.forward);
         bool TooClose = false;
 
         if (Physics.Raycast(Ray, out hit))
