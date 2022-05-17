@@ -77,12 +77,13 @@ public class WeaponRecoil : MonoBehaviour
 
         Destroy(NewBullet, RemovalTime);
 
-
         FireTime %= FireRate;
-    
 
-        GunShotSource.Play();
+        AudioSource newShotSound =  Instantiate(GunShotSource, ShootPoint.position, ShootPoint.rotation) as AudioSource;
 
+        newShotSound.Play();
+
+   
 
 
     }

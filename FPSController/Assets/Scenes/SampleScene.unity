@@ -6849,7 +6849,6 @@ GameObject:
   m_Component:
   - component: {fileID: 258710261}
   - component: {fileID: 258710263}
-  - component: {fileID: 258710262}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -6873,102 +6872,6 @@ Transform:
   m_Father: {fileID: 1766339014}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &258710262
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258710260}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 25b1016a3834e3b43bdfa98f1cd682ea, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &258710263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8697,7 +8600,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 426d74a5eeada3f4285436ccca48e9ba, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 426d74a5eeada3f4285436ccca48e9ba, type: 3}
       propertyPath: m_LocalScale.x
@@ -26962,11 +26865,11 @@ MonoBehaviour:
   CameraScript: {fileID: 125013302}
   FireRateRPM: 70
   MaxRecoilX: 3
-  MinRecoilX: 3
+  MinRecoilX: -3
   MaxRecoilY: 7
   MinRecoilY: 4.5
-  RecoilAmount: 0.5
-  RecoilSmoothAmount: 100
+  RecoilAmount: 0.4
+  RecoilSmoothAmount: 300
   ReturnSmoothAmount: 5
   GunShotSource: {fileID: 2086424166}
   ShootPoint: {fileID: 1557182778}
@@ -38844,7 +38747,7 @@ MonoBehaviour:
   RecoilAmount: 0.05
   RecoilSmoothAmount: 100
   ReturnSmoothAmount: 5
-  GunShotSource: {fileID: 258710262}
+  GunShotSource: {fileID: 6234079075177322192, guid: 41b291dc9326bba4985d078d8d740731, type: 3}
   ShootPoint: {fileID: 1076611352}
   Bullet: {fileID: 1476895086695185223, guid: 79e080b93bea7d84aaad2861fbe9a0c1, type: 3}
   MuzzleFlash: {fileID: 1916800512}
