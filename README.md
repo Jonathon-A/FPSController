@@ -1,6 +1,8 @@
 # FPSController
 A first-person shooter controller featuring fully customisable procedural animations for weapon sway, tilt, aiming, stowing, movement, and recoil
 
+*work-in-progress*
+
 First person controller used (after modification) from: https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710
 
 Some images and videos of the project:
